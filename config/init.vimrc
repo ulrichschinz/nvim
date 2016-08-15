@@ -1,5 +1,10 @@
 call plug#begin('~/.config/nvim/plugged')
 
+" Function for deoplete for async keyword completion
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
+
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
@@ -30,4 +35,5 @@ Plug 'lambdatoast/elm.vim'
 Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim'
+Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 call plug#end()
