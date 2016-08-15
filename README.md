@@ -7,3 +7,7 @@
 Python must be enabled. So install with pip2 / pip3.  
 `pip2 install neovim`  
 `pip3 install neovim`  
+
+## Install Addons/Plugins
+
+Start neovim and call `:PlugInstall`.
