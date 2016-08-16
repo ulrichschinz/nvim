@@ -1,1 +1,1 @@
-/home/uli/.config/nvim/config/init.vim
+/home/uli/.config/wp-vim/vimrc
