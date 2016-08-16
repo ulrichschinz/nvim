@@ -1,2 +1,1 @@
-source $HOME/.config/nvim/config/init.vimrc
-
+/home/uli/.config/nvim/config/init.vim
