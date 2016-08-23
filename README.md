@@ -10,6 +10,8 @@ To enable the default-config, just enter:
 
 ## Prequesites
 
+### Javascript
+
 **deoplete** && **ternjs**  
 
 Python must be enabled. So install with pip2 / pip3.  
@@ -18,6 +20,14 @@ Python must be enabled. So install with pip2 / pip3.
 `pip3 install neovim`  
 
 Node.js and npm must be installed in order to run ternjs.  
+
+### Elm
+
+**elmcast/elm-vim**  
+
+To use the plugin with most features you have to install the elm... stack.  
+
+`sudo npm install -g elm elm-test elm-oracle`  
 
 ## Install Addons/Plugins
 
