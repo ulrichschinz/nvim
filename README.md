@@ -1,5 +1,12 @@
 # Neovim config dir
 
+# HoWto Enable
+
+To use this configuration you have to ln to the correct init.vim.  
+Since I'm using some different environments and styles, I'm keeping diffent configs for vim in different locations. Linking init.vim to these configs makes it easy to switch between configurations.  
+
+To enable the default-config, just enter:  
+`ln -s $(pwd)/config/init.vim $(pwd)/init.vim`
 
 ## Prequesites
 
