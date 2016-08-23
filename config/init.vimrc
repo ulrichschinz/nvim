@@ -32,6 +32,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'grassdog/tagman.vim'
 Plug 'lambdatoast/elm.vim'
+Plug 'elmcast/elm-vim'
 Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
