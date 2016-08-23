@@ -1,1 +1,0 @@
-/home/uli/.config/wp-vim/vimrc
