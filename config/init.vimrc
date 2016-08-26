@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
+" enable mouse marck / paste features
+:set mouse=r
+
 " Function for deoplete for async keyword completion
 function! DoRemote(arg)
   UpdateRemotePlugins
