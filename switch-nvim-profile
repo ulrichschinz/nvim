@@ -29,7 +29,7 @@ NEWNVIMCFG=$PREFIX/$CONFIG/$POSTFIXSRC
 if [ $STANDARD -gt 0 ]; then
   echo -n "Resetting to standardconfig..."
   unlink $NVIMCFG
-  ln -s $NEWVIMCFG $NVIMCFG
+  ln -s $NEWNVIMCFG $NVIMCFG
   echo -e "\tdone!"
   exit 0
 fi
