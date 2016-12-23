@@ -5,8 +5,10 @@
 To use this configuration you have to ln to the correct init.vim.  
 Since I'm using some different environments and styles, I'm keeping diffent configs for vim in different locations. Linking init.vim to these configs makes it easy to switch between configurations.  
 
-To enable the default-config, just enter:  
-`ln -s $(pwd)/config/init.vim $(pwd)/init.vim`
+The script `switch-nvim-config` helps linking the configuration.  
+Calling `switch-nvim-config` without arguments just enables this config-set.  
+Calling with an <argument> would enable a config in `~./config/<argument>`.  
+If you want you can put the script in your $PATH.  
 
 ## Prequesites
 
