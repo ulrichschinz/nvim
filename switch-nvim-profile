@@ -7,7 +7,7 @@
 # init.vim
 # Directorystructure should be:
 # ~/.config/<nvimconfigname>/init.vim
-# assumes you standard config in .config/nvim/config/init.vim
+# assumes your standard config in .config/nvim/config/init.vim
 # 
 ####################################################################
 
@@ -28,7 +28,9 @@ NEWNVIMCFG=$PREFIX/$CONFIG/$POSTFIXSRC
 
 if [ $STANDARD -gt 0 ]; then
   echo -n "Resetting to standardconfig..."
-  unlink $NVIMCFG
+  if [ -L $NVIMCFG ]; then
+    unlink $NVIMCFG
+  fi
   ln -s $NEWNVIMCFG $NVIMCFG
   echo -e "\tdone!"
   exit 0
