@@ -33,5 +33,5 @@ To use the plugin with most features you have to install the elm... stack.
 
 ## Install Addons/Plugins
 
-Start neovim and call `:PlugInstall`.  
+Start neovim and call `:PlugInstall` or enter `vim +PlugInstall`
 
