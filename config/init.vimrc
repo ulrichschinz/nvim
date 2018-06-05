@@ -34,10 +34,12 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'grassdog/tagman.vim'
+Plug 'dhruvasagar/vim-table-mode'
 " Plug 'lambdatoast/elm.vim'
 " Plug 'elmcast/elm-vim'
 Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
-Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+Plug 'saltstack/salt-vim'
+"Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 call plug#end()
