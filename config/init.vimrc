@@ -41,5 +41,7 @@ Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'saltstack/salt-vim'
+Plug 'vimwiki/vimwiki'
+Plug 'dag/vim-fish'
 "Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 call plug#end()
