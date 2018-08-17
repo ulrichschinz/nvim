@@ -32,11 +32,11 @@ Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'saltstack/salt-vim'
 Plug 'dag/vim-fish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'vimwiki/vimwiki'
 " Plug 'lambdatoast/elm.vim'
 " Plug 'elmcast/elm-vim'
 " Plug 'justinj/vim-react-snippets'
-" Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'tomtom/tlib_vim'
 " Plug 'tpope/vim-rails'
 " Plug 'pangloss/vim-javascript'
