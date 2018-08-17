@@ -29,7 +29,8 @@ set showmatch		" Show matching brackets.
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 
-" Some settings for tern
+" Search for pattern
+command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 
 " enable keyboard shortcuts
 let g:tern_map_keys=1
