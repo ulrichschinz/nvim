@@ -31,6 +31,7 @@ Plug 'saltstack/salt-vim'
 Plug 'dag/vim-fish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'SirVer/ultisnips'
+Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'garbas/vim-snipmate'
 " Plug 'honza/vim-snippets'
