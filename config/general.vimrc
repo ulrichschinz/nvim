@@ -8,6 +8,8 @@ set hidden
 
 set termencoding=utf-8
 
+set autowrite
+
 " For PHP-Files
 autocmd FileType php set tabstop=4 shiftwidth=1
 
@@ -32,11 +34,40 @@ set smartcase		" Do smart case matching
 " Search for pattern
 command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 
+" replace leader by , since \ is hard to hit in ger layout
+let mapleader = ","
+
+" vim-go fatih hints
+
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader> :cclose<CR>
+
+" build and run on go-files
+autocmd FileType go nmap <leader>r <Plug>(go-run)
+
+" run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#test#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
+
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+
+" make all lists quickfix-lists
+let g:go_list_type = "quickfix"
+
+
+" Javascript
 " enable keyboard shortcuts
-let g:tern_map_keys=1
+" let g:tern_map_keys=1
 
 " show argument hints
-let g:tern_show_argument_hints='on_hold'
+" let g:tern_show_argument_hints='on_hold'
 
 " deoplete start
-let g:deoplete#enable_at_startup = 1
+" let g:deoplete#enable_at_startup = 1
