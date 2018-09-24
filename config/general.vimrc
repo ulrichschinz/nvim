@@ -61,7 +61,6 @@ autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 " make all lists quickfix-lists
 let g:go_list_type = "quickfix"
 
-
 " Javascript
 " enable keyboard shortcuts
 " let g:tern_map_keys=1
