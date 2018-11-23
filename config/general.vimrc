@@ -24,7 +24,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " enable syntax-highlighting
 syntax on
 syntax enable
-colorscheme Kafka
+colorscheme winter
 
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
