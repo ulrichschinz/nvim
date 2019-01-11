@@ -24,7 +24,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " enable syntax-highlighting
 syntax on
 syntax enable
-colorscheme winter
+colorscheme pablo
 
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
@@ -57,6 +57,7 @@ function! s:build_go_files()
 endfunction
 
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
+let g:go_fmt_command = "gofmt"
 
 " make all lists quickfix-lists
 let g:go_list_type = "quickfix"
