@@ -62,6 +62,17 @@ let g:go_fmt_command = "gofmt"
 " make all lists quickfix-lists
 let g:go_list_type = "quickfix"
 
+" configure ctrlp to use ripgerp
+if executable('rg')
+  let g:ctrlp_user_command = 'rg --files %s'
+  let g:ctrlp_use_caching = 0
+  let g:ctrlp_working_path_mode = 'ra'
+  let g:ctrlp_switch_buffer = 'et'
+endif
+
+" configure ack to use rg 
+let g:ackprg = 'rg --vimgrep --no-heading'
+
 " Javascript
 " enable keyboard shortcuts
 " let g:tern_map_keys=1
