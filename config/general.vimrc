@@ -5,6 +5,7 @@ set scrolloff=2
 set laststatus=2
 set nocompatible
 set hidden
+set list
 
 set termencoding=utf-8
 
