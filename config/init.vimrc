@@ -34,6 +34,9 @@ Plug 'SirVer/ultisnips'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'lepture/vim-jinja'
 Plug 'mileszs/ack.vim'
+Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 " Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'garbas/vim-snipmate'
 " Plug 'honza/vim-snippets'
@@ -48,5 +51,4 @@ Plug 'tpope/vim-rails'
 " Plug 'moll/vim-node'
 " Plug 'klen/python-mode'
 " Plug 'kylef/apiblueprint.vim'
-"Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 call plug#end()
