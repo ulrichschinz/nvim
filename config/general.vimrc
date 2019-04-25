@@ -25,7 +25,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 " enable syntax-highlighting
 syntax on
 syntax enable
-colorscheme pablo
+colorscheme Kafka
 
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
@@ -74,6 +74,9 @@ endif
 " configure ack to use rg 
 let g:ackprg = 'rg --vimgrep --no-heading'
 
+" map enter and shift enter for newline after and before
+nmap <CR> o<ESC>
+nmap <S-Enter> O<ESC>
 " Javascript
 " enable keyboard shortcuts
 " let g:tern_map_keys=1

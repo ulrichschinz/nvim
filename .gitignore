@@ -1,4 +1,5 @@
 /init.vim
+.netrwhist
 plugged
 *rplugin~
 undodir
