@@ -45,7 +45,7 @@ Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 " Plug 'elmcast/elm-vim'
 " Plug 'justinj/vim-react-snippets'
 " Plug 'tomtom/tlib_vim'
-Plug 'tpope/vim-rails'
+" Plug 'tpope/vim-rails'
 " Plug 'pangloss/vim-javascript'
 " Plug 'tpope/vim-bundler'
 " Plug 'moll/vim-node'
