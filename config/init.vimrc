@@ -39,6 +39,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
+Plug 'vimwiki/vimwiki'
 " Plug 'udalov/kotlin-vim'
 " Plug 'dag/vim-fish'
 " Plug 'rust-lang/rust.vim'
