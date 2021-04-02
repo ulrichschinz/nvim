@@ -29,7 +29,6 @@ Plug 'guns/vim-clojure-static'
 Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'saltstack/salt-vim'
-Plug 'dag/vim-fish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'SirVer/ultisnips'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -38,8 +37,11 @@ Plug 'mileszs/ack.vim'
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
-Plug 'rust-lang/rust.vim'
-Plug 'aserebryakov/vim-todo-lists'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
+" Plug 'udalov/kotlin-vim'
+" Plug 'dag/vim-fish'
+" Plug 'rust-lang/rust.vim'
 " Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'garbas/vim-snipmate'
 " Plug 'honza/vim-snippets'
@@ -53,8 +55,6 @@ Plug 'aserebryakov/vim-todo-lists'
 " Plug 'tpope/vim-bundler'
 " Plug 'moll/vim-node'
 " Plug 'klen/python-mode'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'nvie/vim-flake8'
 " Plug 'kylef/apiblueprint.vim'
 call plug#end()
 
