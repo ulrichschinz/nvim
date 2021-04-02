@@ -35,8 +35,11 @@ set smartcase		" Do smart case matching
 " Search for pattern
 command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 
-" replace leader by , since \ is hard to hit in ger layout
-let mapleader = ","
+"" folding with space
+"set foldmethod=syntax
+"nnoremap <C-space> za
+"" replace leader by , since \ is hard to hit in ger layout
+"let mapleader = ","
 
 " vim-go fatih hints
 
