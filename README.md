@@ -31,6 +31,10 @@ To use the plugin with most features you have to install the elm... stack.
 
 `sudo npm install -g elm elm-test elm-oracle`  
 
+## Vimwiki / taskwarrior
+
+pip3 install tasklib
+
 ## Install Addons/Plugins
 
 Start neovim and call `:PlugInstall` or enter `vim +PlugInstall`
