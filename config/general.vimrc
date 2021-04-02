@@ -32,6 +32,9 @@ set showmatch		" Show matching brackets.
 set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 
+" blamer
+let g:blamer_enabled = 1
+
 " Search for pattern
 command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 

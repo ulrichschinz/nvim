@@ -14,6 +14,7 @@ Plug 'tpope/vim-sensible'
 Plug 'godlygeek/tabular'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'APZelos/blamer.nvim'
 Plug 'Townk/vim-autoclose'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-fugitive'
@@ -38,6 +39,7 @@ Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/sy
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 Plug 'rust-lang/rust.vim'
+Plug 'aserebryakov/vim-todo-lists'
 " Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'garbas/vim-snipmate'
 " Plug 'honza/vim-snippets'
