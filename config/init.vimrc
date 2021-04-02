@@ -36,12 +36,11 @@ Plug 'mileszs/ack.vim'
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
-<<<<<<< HEAD
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
 " Plug 'udalov/kotlin-vim'
 " Plug 'dag/vim-fish'
-=======
-Plug 'rust-lang/rust.vim'
->>>>>>> 5d0398934f0b14c73466baa378d473546e363bc7
+" Plug 'rust-lang/rust.vim'
 " Plug 'MarcWeber/vim-addon-mw-utils'
 " Plug 'garbas/vim-snipmate'
 " Plug 'honza/vim-snippets'
@@ -55,8 +54,6 @@ Plug 'rust-lang/rust.vim'
 " Plug 'tpope/vim-bundler'
 " Plug 'moll/vim-node'
 " Plug 'klen/python-mode'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'nvie/vim-flake8'
 " Plug 'kylef/apiblueprint.vim'
 call plug#end()
 
