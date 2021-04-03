@@ -42,7 +42,7 @@ command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 "set foldmethod=syntax
 "nnoremap <C-space> za
 "" replace leader by , since \ is hard to hit in ger layout
-"let mapleader = ","
+let mapleader = ","
 
 " vim-go fatih hints
 
