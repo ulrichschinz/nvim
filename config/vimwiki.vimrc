@@ -1,5 +1,5 @@
 " list of wikis
-let g:vimwiki_list = [{'path': '~/projects/wiki/work', 'syntax': 'markdown', 'ext': 'md'},
+let g:vimwiki_list = [{'path': '~/projects/wiki', 'syntax': 'markdown', 'ext': 'md'},
       \{'path': '~/projects/wiki.schinz.it', 'syntax': 'markdown', 'ext': 'md'}]
 
 let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
