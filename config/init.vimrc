@@ -9,9 +9,9 @@ function! DoRemote(arg)
 endfunction
 
 Plug 'scrooloose/nerdtree'
+Plug 'Olical/conjure'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
-Plug 'godlygeek/tabular'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'APZelos/blamer.nvim'
@@ -26,7 +26,6 @@ Plug 'ervandew/supertab'
 Plug 'grassdog/tagman.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'guns/vim-clojure-static'
-Plug 'tpope/vim-fireplace'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'saltstack/salt-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -42,6 +41,16 @@ Plug 'nvie/vim-flake8'
 Plug 'vimwiki/vimwiki'
 Plug 'plasticboy/vim-markdown'
 Plug 'tools-life/taskwiki'
+
+"""""""""""""""""""""""""""
+" Plug 'godlygeek/tabular'
+" Plug 'tpope/vim-fireplace'
+"""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""
+" Old stuff
+"""""""""""""""""""""""""""
+"
 " Plug 'udalov/kotlin-vim'
 " Plug 'dag/vim-fish'
 " Plug 'rust-lang/rust.vim'

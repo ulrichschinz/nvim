@@ -14,11 +14,9 @@ set autowrite
 " For PHP-Files
 autocmd FileType php set tabstop=4 shiftwidth=1
 
-" For js-filres
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-
 " Higlight search terms
 set hlsearch
+
 " reset highlited search (highlighting disappears
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
@@ -38,14 +36,11 @@ let g:blamer_enabled = 1
 " Search for pattern
 command -nargs=1 Search vimgrep /<args>/j ** <Bar> cw
 
-"" folding with space
-"set foldmethod=syntax
-"nnoremap <C-space> za
-"" replace leader by , since \ is hard to hit in ger layout
+" replace leader by , since \ is hard to hit in ger layout
 let mapleader = ","
 
 " vim-go fatih hints
-
+" https://github.com/fatih/vim-go-tutorial
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <leader> :cclose<CR>
@@ -77,12 +72,15 @@ if executable('rg')
   let g:ctrlp_switch_buffer = 'et'
 endif
 
-" configure ack to use rg 
+" configure ack to use rg
 let g:ackprg = 'rg --vimgrep --no-heading'
 
 " map enter and shift enter for newline after and before
 nmap <CR> o<ESC>
 nmap <S-Enter> O<ESC>
+
+
+
 " Javascript
 " enable keyboard shortcuts
 " let g:tern_map_keys=1
@@ -91,4 +89,4 @@ nmap <S-Enter> O<ESC>
 " let g:tern_show_argument_hints='on_hold'
 
 " deoplete start
-let g:deoplete#enable_at_startup = 1
+" let g:deoplete#enable_at_startup = 1
