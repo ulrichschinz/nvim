@@ -27,5 +27,6 @@ Gathered snippets and inspirations from multiple sources:
 * [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 * [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 * [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+* [cmp-conjure](https://github.com/PaterJason/cmp-conjure)
 
 
