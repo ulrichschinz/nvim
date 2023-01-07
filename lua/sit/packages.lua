@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
 
   use 'APZelos/blamer.nvim'
   use 'tpope/vim-fugitive'
+  use 'tpope/vim-surround'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

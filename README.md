@@ -12,3 +12,4 @@ Gathered snippets and inspirations from multiple sources:
 [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 [blamer.nvim](https://github.com/APZelos/blamer.nvim)
 [vim-fugitive](https://github.com/tpope/vim-fugitive)
+[surround.vim](https://github.com/tpope/vim-surround)
