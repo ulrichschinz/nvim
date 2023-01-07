@@ -17,3 +17,16 @@ Gathered snippets and inspirations from multiple sources:
 * [vim-sexp-mappings-for-regular-people](https://github.com/tpope/vim-sexp-mappings-for-regular-people)
 * [vim-sexp](https://github.com/guns/vim-sexp)
 * [vim-repeat](https://github.com/tpope/vim-repeat)
+
+### nvim-cmp (completion)
+* [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+* [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+* [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+* [cmp-path](https://github.com/hrsh7th/cmp-path)
+* [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+* [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+* [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+* [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
+* [cmp-conjure](https://github.com/PaterJason/cmp-conjure)
+
+
