@@ -14,3 +14,6 @@ Gathered snippets and inspirations from multiple sources:
 * [vim-fugitive](https://github.com/tpope/vim-fugitive)
 * [surround.vim](https://github.com/tpope/vim-surround)
 * [conjure](https://github.com/Olical/conjure#installation)
+* [vim-sexp-mappings-for-regular-people](https://github.com/tpope/vim-sexp-mappings-for-regular-people)
+* [vim-sexp](https://github.com/guns/vim-sexp)
+* [vim-repeat](https://github.com/tpope/vim-repeat)

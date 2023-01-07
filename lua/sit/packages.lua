@@ -26,11 +26,15 @@ return require('packer').startup(function(use)
 
   use 'APZelos/blamer.nvim'
   use 'tpope/vim-fugitive'
-  use 'tpope/vim-surround'
   use 'Olical/conjure'
   use("RRethy/nvim-base16")
   use("kyazdani42/nvim-palenight.lua")
 
+  -- sexp clojure editing
+  use('guns/vim-sexp')
+  use('tpope/vim-repeat')
+  use 'tpope/vim-surround'
+  use('tpope/vim-sexp-mappings-for-regular-people')
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
