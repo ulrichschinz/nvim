@@ -10,3 +10,4 @@ Gathered snippets and inspirations from multiple sources:
 [packer.nvim](https://github.com/wbthomason/packer.nvim)
 [NERDTree](https://github.com/preservim/nerdtree)
 [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+[blamer.nvim](https://github.com/APZelos/blamer.nvim)
