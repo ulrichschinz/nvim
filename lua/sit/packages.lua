@@ -24,14 +24,14 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
 
-  -- clojure
-  use('clojure-vim/clojure.vim')
-
   use 'APZelos/blamer.nvim'
   use 'tpope/vim-fugitive'
   use 'Olical/conjure'
   use("RRethy/nvim-base16")
   use("kyazdani42/nvim-palenight.lua")
+
+  -- clojure
+  use('clojure-vim/clojure.vim')
 
   -- sexp clojure editing
   use('guns/vim-sexp')
