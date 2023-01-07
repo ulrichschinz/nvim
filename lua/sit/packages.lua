@@ -28,6 +28,9 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
   use 'Olical/conjure'
+  use("RRethy/nvim-base16")
+  use("kyazdani42/nvim-palenight.lua")
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

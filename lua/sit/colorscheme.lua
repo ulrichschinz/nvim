@@ -1,4 +1,4 @@
-local colorscheme = 'lunaperche'
+local colorscheme = 'base16-onedark'
 
 local ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 vim.o.background = "dark"
