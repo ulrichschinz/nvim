@@ -3,5 +3,6 @@
 
 require('sit.base')
 require('sit.keybindings')
-require('sit.packages')
 require('sit.undo')
+require('sit.packages')
+require('sit.colorscheme')

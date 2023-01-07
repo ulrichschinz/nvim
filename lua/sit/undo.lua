@@ -11,6 +11,7 @@ local fn = vim.fn
 local undopath = fn.stdpath('config')..'/undodir'
 if fn.empty(fn.glob(install_path)) > 0 then
   fn.system({'mkdir', '-p', undopath})
+  return
 end
 o.undodir = undopath
 o.undofile = true

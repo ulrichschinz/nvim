@@ -7,7 +7,7 @@ local g = vim.g
 -- Vim options (:set)
 local o = vim.o
 
-
+o.termguicolors = true
 o.tabstop = 2
 o.expandtab = true
 o.shiftwidth = 2
