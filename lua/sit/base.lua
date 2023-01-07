@@ -33,3 +33,6 @@ o.smartcase = true
 -- replace leader by , since \ is hard to hit in ger layout
 g.mapleader = ","
 g.maplocalleader = ","
+
+-- blamer config
+g.blamer_enabled = 1
