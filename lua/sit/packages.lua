@@ -1,3 +1,6 @@
+-- uli's neovim config
+-- https://git.schinz.it/dotfiles/nvim
+
 local ensure_packer = function()
   local fn = vim.fn
   local install_path = fn.stdpath('config')..'/pack/packer/start/packer.nvim'
