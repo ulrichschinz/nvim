@@ -6,3 +6,6 @@ require('sit.keybindings')
 require('sit.undo')
 require('sit.packages')
 require('sit.colorscheme')
+
+-- some addon stuff
+require('lualine').setup()
