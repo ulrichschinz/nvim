@@ -1,5 +1,21 @@
 # Neovim config dir
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### DEPRECATED ######
 # HoWto Enable
 
 To use this configuration you have to ln to the correct init.vim.  
