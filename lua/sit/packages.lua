@@ -30,6 +30,9 @@ return require('packer').startup(function(use)
   use("RRethy/nvim-base16")
   use("kyazdani42/nvim-palenight.lua")
 
+  -- clojure
+  use('clojure-vim/clojure.vim')
+
   -- sexp clojure editing
   use('guns/vim-sexp')
   use('tpope/vim-repeat')
