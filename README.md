@@ -11,3 +11,4 @@ Gathered snippets and inspirations from multiple sources:
 [NERDTree](https://github.com/preservim/nerdtree)
 [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 [blamer.nvim](https://github.com/APZelos/blamer.nvim)
+[vim-fugitive](https://github.com/tpope/vim-fugitive)
