@@ -1,6 +1,12 @@
 -- uli's neovim config
 -- https://git.schinz.it/dotfiles/nvim
 
+local packer = require('packer')
+
+packer.init({
+  package_root = vim.fn.stdpath('config') .. '/pack/'
+})
+
 local ensure_packer = function()
   local fn = vim.fn
   local install_path = fn.stdpath('config')..'/pack/packer/start/packer.nvim'
@@ -13,12 +19,6 @@ local ensure_packer = function()
 end
 
 local packer_bootstrap = ensure_packer()
-
-local packer = require('packer')
-
-packer.init({
-  package_root = vim.fn.stdpath('config') .. 'pack'
-})
 
 return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
