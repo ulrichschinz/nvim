@@ -1,5 +1,13 @@
 # Neovim config
 
+To get the config initialized, just start nvim. It will install all necessary things.
+
+## Hints
+
+Update Plugins: `:PackerSync`
+
+
+## Links
 Gathered snippets and inspirations from multiple sources:
 
 * [Neovim](https://neovim.io/doc/user/lua.html#lua-intro)

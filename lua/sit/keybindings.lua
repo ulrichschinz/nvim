@@ -11,3 +11,6 @@ end
 
 -- reset highlited search
 map("n", "<Space>", ":nohlsearch<CR>", { silent = true })
+map("i", "jk", "<esc>")
+map("c", "jk", "<c-c>")
+map("t", "jk", "<c-\\><c-n>")
