@@ -14,7 +14,13 @@ end
 
 local packer_bootstrap = ensure_packer()
 
-return require('packer').startup(function(use)
+local packer = require('packer')
+
+packer.init({
+  package_root = vim.fn.stdpath('config') .. 'pack'
+})
+
+return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
   use 'scrooloose/nerdtree'
