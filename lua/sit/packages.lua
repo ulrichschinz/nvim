@@ -25,16 +25,16 @@ return packer.startup(function(use)
   -- My plugins here
   use 'scrooloose/nerdtree'
 
+  use 'APZelos/blamer.nvim'
+  use 'tpope/vim-fugitive'
+  use 'Olical/conjure'
+
+  -- colorschemes
+  use 'marko-cerovac/material.nvim'
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-
-  use 'APZelos/blamer.nvim'
-  use 'tpope/vim-fugitive'
-  use 'Olical/conjure'
-  use("RRethy/nvim-base16")
-  use("kyazdani42/nvim-palenight.lua")
 
   -- clojure
   use('clojure-vim/clojure.vim')
@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use('L3MON4D3/LuaSnip')
   use('saadparwaiz1/cmp_luasnip')
   use('PaterJason/cmp-conjure')
+  use('w0rp/ale')
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
