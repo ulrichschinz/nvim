@@ -22,11 +22,11 @@ packer.init({
 
 return packer.startup(function(use)
   use 'wbthomason/packer.nvim'
-  -- My plugins here
-  use 'scrooloose/nerdtree'
 
+  use 'scrooloose/nerdtree'
   use 'APZelos/blamer.nvim'
   use 'tpope/vim-fugitive'
+  use 'mileszs/ack.vim'
   use 'Olical/conjure'
 
   -- colorschemes

@@ -39,3 +39,6 @@ g.blamer_enabled = 1
 
 -- sexp filetypes
 g.sexp_filetypes = "clojure,scheme,lisp,fennel"
+
+-- ack engine setting
+g.ackprg = 'rg --vimgrep --no-heading'
