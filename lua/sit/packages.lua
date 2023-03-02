@@ -45,6 +45,14 @@ return packer.startup(function(use)
   use 'tpope/vim-surround'
   use('tpope/vim-sexp-mappings-for-regular-people')
 
+  -- treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+          end,
+  }
   -- nvim-cmp stuff
   use('neovim/nvim-lspconfig')
   use('hrsh7th/cmp-nvim-lsp')
