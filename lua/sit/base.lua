@@ -13,10 +13,9 @@ o.expandtab = true
 o.shiftwidth = 2
 o.scrolloff = 2
 o.laststatus = 2
-o.nocompatible = true
 o.hidden = true
 o.list = true
-o.termencoding = "utf-8"
+-- o.termencoding = "utf-8"
 o.autowrite = true
 -- Higlight search terms
 o.hlsearch = true
